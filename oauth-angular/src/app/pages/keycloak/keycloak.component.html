@@ -1,0 +1,18 @@
+<p>keycloak works!</p>
+
+<p>
+  <b>Nome:</b>
+  {{ user?.given_name }} {{ user?.family_name }}
+</p>
+<p>
+  <b>Email:</b>
+  {{ user?.email }}
+</p>
+<p>
+  <b>Username:</b>
+  {{ user?.preferred_username }}
+</p>
+
+<p>
+  <button (click)="logout()">logout</button>
+</p>
